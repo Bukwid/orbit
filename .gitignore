@@ -1,0 +1,53 @@
+# Environment variables and secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# IBM Cloud credentials
+orbiter-api-key.json
+firebase-admin-key.json
+*-credentials.json
+
+# Flutter/Dart
+orbiter/.dart_tool/
+orbiter/.flutter-plugins
+orbiter/.flutter-plugins-dependencies
+orbiter/.packages
+orbiter/.pub-cache/
+orbiter/.pub/
+orbiter/build/
+orbiter/.flutter-plugins-dependencies
+
+# Go
+agent/bin/
+agent/vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Firebase
+orbiter/android/app/google-services.json
+orbiter/ios/Runner/GoogleService-Info.plist
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Made with Bob
