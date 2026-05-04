@@ -436,8 +436,8 @@ class _DashboardScreenState extends State<DashboardScreen> {
 
       // Analyze with watsonx.ai
       final watsonx = WatsonXService(
-        apiKey: 'U7jbu40bqnxg4WvcAaUwOv3wBOJuOgaqdWWPZ134zpYN',
-        projectId: 'e33f9d2e-aaef-493f-9363-b4720c98ddbe',
+        apiKey: '<api_key>',
+        projectId: '<project_id>',
         url: 'https://us-south.ml.cloud.ibm.com',
       );
 
